@@ -18,7 +18,6 @@ namespace KISS
                 total += prices[i];
             }
 
-            return total;
         }
     }
 }
