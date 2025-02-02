@@ -8,16 +8,12 @@ namespace DRY
 {
     public class Playroll
     {
-        public decimal CalculateSalary() {  
+        public decimal CalculateSalary(decimal salary) {
+
+            decimal tax = salary * 0.18m;
+            decimal bonus = salary * 0.05m;
             
-            
-            
-        
-            
-            
-            
-            
-            return 0; }
+        return salary - tax + bonus; }
     
     }
 }
