@@ -8,6 +8,11 @@ namespace SOLID
 {
     public class NotificationService
     {
+        public void SendEmail(string email, string message)
+        {
+            Console.WriteLine($"Sending Email to {email}: {message}");
+        }
 
+        public void SendSMS()
     }
 }

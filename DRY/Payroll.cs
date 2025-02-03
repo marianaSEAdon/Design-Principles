@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace DRY
 {
-    public class Playroll
+    public class Payroll
     {
+
         public decimal CalculateSalary(decimal salary) {
 
             decimal tax = salary * 0.18m;
@@ -17,4 +18,6 @@ namespace DRY
 
     
     }
+
+
 }

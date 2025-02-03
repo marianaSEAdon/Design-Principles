@@ -19,7 +19,7 @@ namespace KISS
             }
             else
             {
-                total += total * 0.10m;
+                total = total * 0.10m;
             }
 
             return total;
