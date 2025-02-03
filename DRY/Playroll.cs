@@ -14,6 +14,7 @@ namespace DRY
             decimal bonus = salary * 0.05m;
             
         return salary - tax + bonus; }
+
     
     }
 }

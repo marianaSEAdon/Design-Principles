@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace SOLID
 {
-    internal class NotificationService
+    public class NotificationService
     {
+
     }
 }
