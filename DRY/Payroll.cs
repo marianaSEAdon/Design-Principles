@@ -8,6 +8,7 @@ namespace DRY
 {
     public class Payroll
     {
+   
 
         public decimal CalculateSalary(decimal salary) {
 
@@ -15,6 +16,7 @@ namespace DRY
             decimal bonus = salary * 0.05m;
             
         return salary - tax + bonus; }
+
 
     
     }
