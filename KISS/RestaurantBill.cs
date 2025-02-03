@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.InteropServices;
+using System.Linq; 
 using System.Text;
 using System.Threading.Tasks;
 
@@ -17,7 +16,8 @@ namespace KISS
             if (propina.HasValue)
             {
                 total = total * (propina.Value / 100);
-            } else
+            }
+            else
             {
                 total += total * 0.10m;
             }
@@ -25,9 +25,11 @@ namespace KISS
             return total;
         }
 
-        
-    }
 
+
+    }
+ 
+    
 
 
 }
