@@ -15,14 +15,15 @@ namespace KISS
 
             if (propina.HasValue)
             {
-                total = total * (propina.Value / 100);
-            }
-            else
-            {
                 total = total * 0.10m;
+            }else 
+            {
+                total = total * (propina.Value / 100);
             }
 
             return total;
+
+
         }
 
 

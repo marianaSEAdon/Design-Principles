@@ -17,6 +17,21 @@ namespace DRY
             
         return salary - tax + bonus; }
 
+        public decimal EmpleadoFullTime(decimal salary) {
+
+            return CalculateSalary(salary);
+        
+        }
+
+        public decimal EmpleadoPartTime(decimal salarioPorHora, decimal horas)
+        {
+            decimal salary = salarioPorHora * horas;
+
+            return CalculateSalary(salary);
+        }
+
+
+
 
     
     }

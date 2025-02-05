@@ -10,6 +10,7 @@ namespace KISS
     {
         static void Main(string[] args)
         {
+ 
         }
     }
 }
